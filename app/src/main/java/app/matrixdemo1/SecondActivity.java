@@ -13,7 +13,7 @@ public class SecondActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.secondactivity);
-        Log.d("d", "Parna Second activity line no 15");
+        Log.d("d", "Parna Second Activity line no 15");
         Log.e("Hello","I am in second activity");
     }
 }
