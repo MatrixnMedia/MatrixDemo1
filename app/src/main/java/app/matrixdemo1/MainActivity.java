@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                /* Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
            */
                 Log.d("d", "Parna log !!!!!!!!!!!!");
+               /* Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                Log.e("hello","sutapa");
             }
         });
     }
