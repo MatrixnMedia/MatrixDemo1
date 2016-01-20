@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.e("hello","sutapa");
                 Log.e("hello","sutapa2");
                 Log.d("d", "Parna 2 log!!!!!!!!!");
-                
+                callback();
             }
         });
     }
@@ -77,5 +77,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
         }
+    }
+    public void callback()
+    {
+        Log.d("d", "Sutapa 2 log!!!!!!!!!");
     }
 }
