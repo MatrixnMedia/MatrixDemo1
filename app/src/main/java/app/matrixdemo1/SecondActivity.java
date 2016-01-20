@@ -14,5 +14,6 @@ public class SecondActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.secondactivity);
         Log.d("d", "Parna Second activity line no 15");
+        Log.e("Hello","I am in second activity");
     }
 }
